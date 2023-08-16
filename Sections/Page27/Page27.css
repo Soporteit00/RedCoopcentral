@@ -1,0 +1,96 @@
+.container{
+    width: 85%;
+    height: 90%;
+    background-image: url("../../img/Page25/fondo\ \(2\).jpg");
+    background-position: top center;
+    background-size: contain;
+    background-attachment: fixed;
+    position:relative;
+    z-index: 1;
+    margin-top: 1%;
+  }
+  
+  .progress{
+    color: #0A2D72;
+  }
+  
+  p{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #0a0a0a;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    background-color:  #f9b515;
+  }
+  
+  h3{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;  
+  }
+  
+  h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    /* background-color: antiquewhite; */
+  }
+  
+  h4{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+  }
+  
+  .menu{
+    width: 85%;
+    margin-left: 10%;
+    margin-top: 2%;
+    color: #0A2D72;
+  }
+  .footer{
+    width: 85%;
+    margin-left: 10%;
+    margin-top: 2%;
+    color: #0A2D72;
+  }
+  
+  .botones{
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .left{
+    font-size: 50px;
+    margin-right: 75%;
+    color: #0A2D72;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-60%);
+  }
+  
+  .right{
+    position: absolute;
+    top: 30%;
+    transform: translateY(-60%);
+    font-size: 50px;
+    margin-left: 75%;
+    color: #0A2D72;
+  }
+
+  .card{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    width:330px;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #0A2D72;
+    border-radius:15px;
+    margin-left: 15%;
+}
+
+.plan{
+    width: 200px;
+}

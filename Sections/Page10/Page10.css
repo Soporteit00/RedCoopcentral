@@ -1,0 +1,139 @@
+.alert{
+  width: 45%;
+  margin-left: 30%;
+  text-align: center;
+  font-size: 25px;
+}
+.container{
+    width: 85%;
+    height: 90%;
+    /* background-image: url("../../img/Page30/transacciones.jpg"); */
+    background-position: top center;
+    background-size: contain;
+    background-attachment: fixed;
+    position:relative;
+    z-index: 1;
+    margin-top: 1%;
+  }
+  
+  .progress{
+    color: #0A2D72;
+  }
+  
+  p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+  }
+  
+  h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    background-color:  #f9b515;
+  }
+  
+    
+  h6{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+  }
+
+  h3{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;  
+    margin-top: 15%;
+  }
+  
+  h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    /* background-color: antiquewhite; */
+  }
+  
+  h4{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+  }
+  
+  .menu{
+    width: 85%;
+    margin-left: 10%;
+    margin-top: 2%;
+    color: #0A2D72;
+  }
+  .footer{
+    width: 85%;
+    margin-left: 10%;
+    margin-top: 1%;
+    color: #0A2D72;
+  }
+  
+  .botones{
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .left{
+    font-size: 50px;
+    margin-right: 75%;
+    color: #0A2D72;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-70%);
+  }
+  
+  .right{
+    position: absolute;
+    top: 30%;
+    transform: translateY(-70%);
+    font-size: 50px;
+    margin-left: 35%;
+    color: #0A2D72;
+    border: #ffffff;
+  }
+
+  .card1 {
+    width: 375px;
+    height: 410px;
+    transform: rotate(90deg);
+    background:  #f9b515;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    transition-duration: 1.5s;
+    transition-property: width, height,transform;
+    margin-left: 20%;
+   }
+   
+   .card1:hover {
+    width: 375px;
+    height: 254px;
+    transform: rotate(0deg);
+     /* -ms-transform:rotate(90deg);
+     -webkit-transform:rotate(90deg); */
+   }
+   
+   .card__content {
+    padding: 1rem;
+    font-size: smaller;
+   }
+   
+   
+   .card__info {
+    width: 110%;
+    height: 380px;
+    padding: .7rem;
+    font-size: smaller;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: #0A2D72;
+    color: #0A2D72;
+    transition-duration: 1s;
+    transition-property: color;
+   }
+   
+   .card__info:hover {
+    color: #ffffff;
+   }
+   
+   .logo{
+    width: 60%;
+   }
